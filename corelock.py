@@ -3,7 +3,7 @@ import os
 import torch
 from torch import nn
 from torch.autograd import Variable
-from diffNpatch import diff_model_state, patch_model_state
+from extractor import diff_model_state, patch_model_state
 from models import densenet, channel_selection, resnet
 from torchvision import datasets, transforms
 import numpy as np
