@@ -19,6 +19,8 @@ CoreLocker
 
 ```python corelock.py split --model <path_to_model> --ratio <key_ratio> --arch <architecture> --save ./test_output```
 
+Enable `--config` to observe the configeration post extraction. 
+
 **To patch the model:**
 
 ```python corelock.py recover --model test_output/keyed_model.pth.tar --key test_output/key.pth.tar --arch <architecture> --save <save_path>```
