@@ -7,7 +7,7 @@
 CoreLocker
 ├── README.md
 ├── corelock.py
-├── diffNpatch.py
+├── extractor.py
 └── models
     ├── __init__.py
     ├── channel_selection.py
